@@ -5,7 +5,7 @@ MAINTAINER Wu Ping <ncwuping@hotmail.com>
 # regardless of whatever dependencies get added
 RUN addgroup -S keepalived_script && adduser -D -S -G keepalived_script keepalived_script
 
-ENV KEEPALIVED_VERSION 2.0.16
+ENV KEEPALIVED_VERSION 2.0.20
 
 # 1. install required libraries and tools
 # 2. compile and install keepalived
